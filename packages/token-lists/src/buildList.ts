@@ -28,7 +28,7 @@ const lists = {
     name: "PancakeSwap Default",
     keywords: ["pancakeswap", "default"],
     logoURI:
-      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16/logo.png",
     sort: false,
     currentVersion: pancakeswapDefaultVersion,
   },
@@ -37,7 +37,7 @@ const lists = {
     name: "PancakeSwap Extended",
     keywords: ["pancakeswap", "extended"],
     logoURI:
-      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16/logo.png",
     sort: true,
     currentVersion: pancakeswapExtendedVersion,
   },
@@ -46,7 +46,7 @@ const lists = {
     name: "PancakeSwap Top 100",
     keywords: ["pancakeswap", "top 100"],
     logoURI:
-      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16/logo.png",
     sort: true,
     currentVersion: pancakeswapTop100Version,
   },
@@ -55,7 +55,7 @@ const lists = {
     name: "PancakeSwap Top 15",
     keywords: ["pancakeswap", "top 15"],
     logoURI:
-      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16/logo.png",
     sort: true,
     currentVersion: pancakeswapTop15Version,
   },

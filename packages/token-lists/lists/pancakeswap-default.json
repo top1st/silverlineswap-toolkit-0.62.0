@@ -6,7 +6,7 @@
     "minor": 15,
     "patch": 3
   },
-  "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+  "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16/logo.png",
   "keywords": [
     "pancakeswap",
     "default"
@@ -23,10 +23,10 @@
     {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
-      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "address": "0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16.png"
     },
     {
       "name": "Binance Pegged BUSD",
