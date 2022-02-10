@@ -43,6 +43,9 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="flex-start"
           mb={["42px", null, "36px"]}
         >
+          <Box display={["none", null, "block"]}>
+            <LogoWithTextIcon isDark width="160px" />
+          </Box>
           {items?.map((item) => (
             <StyledList key={item.label}>
               <StyledListItem>{item.label}</StyledListItem>
@@ -65,41 +68,8 @@ const MenuItem: React.FC<FooterProps> = ({
               ))}
             </StyledList>
           ))}
-          <Box display={["none", null, "block"]}>
-            <LogoWithTextIcon isDark width="160px" />
-          </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
-        <StyledToolsContainer
-          order={[1, null, 3]}
-          flexDirection={["column", null, "row"]}
-          justifyContent="space-between"
-        >
-          <Flex order={[2, null, 1]} alignItems="center">
-            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-            <LangSelector
-              currentLang={currentLang}
-              langs={langs}
-              setLang={setLang}
-              color={darkColors.textSubtle as keyof Colors}
-              dropdownPosition="top-right"
-            />
-          </Flex>
-          <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-            <Box mr="20px">
-              <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
-            </Box>
-            <Button
-              as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0xC8B7fE1d6B2A7b21D44D2239831Ac6079A471E16"
-              target="_blank"
-              scale="sm"
-              endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
-            >
-              {buyCakeLabel}
-            </Button>
-          </Flex>
-        </StyledToolsContainer>
       </Flex>
     </StyledFooter>
   );

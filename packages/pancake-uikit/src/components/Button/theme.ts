@@ -2,8 +2,8 @@ import { scales, variants } from "./types";
 
 export const scaleVariants = {
   [scales.MD]: {
-    height: "48px",
-    padding: "0 24px",
+    height: "42x",
+    padding: "0 18px",
   },
   [scales.SM]: {
     height: "32px",
@@ -19,14 +19,18 @@ export const scaleVariants = {
 export const styleVariants = {
   [variants.PRIMARY]: {
     backgroundColor: "primary",
+    borderRadius: "7px",
+    fontFamily: "PT Sans, sans-serif",
+    fontWeight: "700",
     color: "white",
   },
   [variants.SECONDARY]: {
-    backgroundColor: "transparent",
-    border: "2px solid",
-    borderColor: "primary",
-    boxShadow: "none",
-    color: "primary",
+    backgroundColor: "backgroundAlt",
+    border: "1px solid #fff",
+    borderRadius: "24px",
+    color: "#fff",
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "600",
     ":disabled": {
       backgroundColor: "transparent",
     },

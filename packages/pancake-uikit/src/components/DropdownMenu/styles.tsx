@@ -30,10 +30,6 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
   padding-right: 16px;
   width: 100%;
 
-  &:hover:not(:disabled) {
-    background-color: ${({ theme }) => theme.colors.tertiary};
-  }
-
   &:active:not(:disabled) {
     opacity: 0.85;
     transform: translateY(1px);
@@ -41,6 +37,8 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
 `;
 
 export const StyledDropdownMenuItemContainer = styled.div`
+  font-size: 15px;
+
   &:first-child > ${DropdownMenuItem} {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -60,13 +58,13 @@ export const DropdownMenuDivider = styled.hr`
 `;
 
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
-  background-color: ${({ theme }) => theme.card.background};
+  background-color: ${({ theme }) => theme.colors.primary};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 6px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
-  width: ${({ $isBottomNav }) => ($isBottomNav ? "calc(100% - 32px)" : "280px")};
+  width: ${({ $isBottomNav }) => ($isBottomNav ? "calc(100% - 32px)" : "120px")};
   visibility: visible;
   z-index: 1001;
 

@@ -24,10 +24,14 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 160px;
+    width: 190px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
     }
   }
   .eye {

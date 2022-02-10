@@ -12,7 +12,7 @@ export const StyledMenuItemContainer = styled.div<StyledMenuItemProps>`
         content: "";
         position: absolute;
         bottom: 0;
-        height: 4px;
+        height: 3px;
         width: 100%;
         background-color: ${theme.colors.primary};
         border-radius: 2px 2px 0 0;
@@ -26,8 +26,8 @@ const StyledMenuItem = styled.a<StyledMenuItemProps>`
   align-items: center;
 
   color: ${({ theme, $isActive }) => ($isActive ? theme.colors.secondary : theme.colors.textSubtle)};
-  font-size: 16px;
-  font-weight: ${({ $isActive }) => ($isActive ? "600" : "400")};
+  font-size: 18px;
+  font-weight: "400";
 
   ${({ $statusColor, theme }) =>
     $statusColor &&
@@ -46,15 +46,20 @@ const StyledMenuItem = styled.a<StyledMenuItemProps>`
     $variant === "default"
       ? `
     padding: 0 16px;
+    margin: 0 10px;
     height: 48px;
+    font-family: Roboto, sans-serif;
   `
       : `
-    padding: 4px 4px 0px 4px;
+    padding: 4px 4px 10px 4px;
     height: 42px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: PT Sans;
   `}
 
   &:hover {
-    background: ${({ theme }) => theme.colors.tertiary};
+    opacity: 0.7;
     ${({ $variant }) => $variant === "default" && "border-radius: 16px;"};
   }
 `;

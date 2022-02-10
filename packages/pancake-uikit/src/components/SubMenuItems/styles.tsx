@@ -6,13 +6,20 @@ const StyledSubMenuItems = styled(Flex)<{ $isMobileOnly: boolean }>`
     ${({ $isMobileOnly }) => ($isMobileOnly ? "display:none" : "")};
   }
   flex-grow: 1;
-  background-color: ${({ theme }) => `${theme.colors.backgroundAlt2}`};
-  box-shadow: inset 0px -2px 0px -8px rgba(133, 133, 133, 0.1);
+  background-color: transparent;
+  padding-top: 46px;
+  box-shadow: none;
   overflow-x: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+
+  .submenu-item {
+    &:first-child {
+      margin-right: 110px;
+    }
   }
 `;
 

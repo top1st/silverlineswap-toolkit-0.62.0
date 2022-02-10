@@ -16,7 +16,7 @@ const SubMenuItems: React.FC<SubMenuItemsProps> = ({ items = [], activeItem, isM
       {items.map(
         ({ label, href, iconName }) =>
           label && (
-            <Box key={label} mr="20px">
+            <Box key={label} className="submenu-item" >
               <MenuItem href={href} isActive={href === activeItem} variant="subMenu">
                 {iconName && (
                   <IconComponent
