@@ -24,6 +24,13 @@ export const styleVariants = {
     fontWeight: "700",
     color: "white",
   },
+  [variants.PRIMARY_ROUND]: {
+    backgroundColor: "primary",
+    borderRadius: "20px",
+    fontFamily: "PT Sans, sans-serif",
+    fontWeight: "700",
+    color: "white",
+  },
   [variants.SECONDARY]: {
     backgroundColor: "backgroundAlt2",
     border: "1px solid #fff",
@@ -36,9 +43,9 @@ export const styleVariants = {
     },
   },
   [variants.TERTIARY]: {
-    backgroundColor: "tertiary",
+    backgroundColor: "secondary",
     boxShadow: "none",
-    color: "primary",
+    color: "#000",
   },
   [variants.SUBTLE]: {
     backgroundColor: "textSubtle",
@@ -54,8 +61,9 @@ export const styleVariants = {
   },
   [variants.TEXT]: {
     backgroundColor: "transparent",
-    color: "primary",
+    color: "text",
     boxShadow: "none",
+    fontWeight: 400,
   },
   [variants.LIGHT]: {
     backgroundColor: "input",

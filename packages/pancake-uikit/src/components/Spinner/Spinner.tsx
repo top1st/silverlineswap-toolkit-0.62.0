@@ -37,7 +37,7 @@ const RotatingPancakeIcon = styled(PancakeIcon)`
   transform: translate3d(0, 0, 0);
 `;
 
-const FloatingPanIcon = styled(PanIcon)`
+const FloatingIcon = styled.img`
   animation: ${float} 6s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;
@@ -45,8 +45,7 @@ const FloatingPanIcon = styled(PanIcon)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
     <Container>
-      <RotatingPancakeIcon width={`${size * 0.5}px`} />
-      <FloatingPanIcon width={`${size}px`} />
+      <FloatingIcon src="/images/loader.png" width={`${size}px`} />
     </Container>
   );
 };
