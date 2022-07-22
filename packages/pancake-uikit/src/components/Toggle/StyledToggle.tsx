@@ -12,13 +12,13 @@ const scaleKeyValues = {
     toggleWidth: "36px",
   },
   md: {
-    handleHeight: "26px",
-    handleWidth: "26px",
+    handleHeight: "20px",
+    handleWidth: "20px",
     handleLeft: "3px",
     handleTop: "3px",
     checkedLeft: "calc(100% - 30px)",
-    toggleHeight: "32px",
-    toggleWidth: "56px",
+    toggleHeight: "26px",
+    toggleWidth: "52px",
   },
   lg: {
     handleHeight: "32px",

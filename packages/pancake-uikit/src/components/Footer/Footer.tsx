@@ -31,7 +31,7 @@ const MenuItem: React.FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
+    <StyledFooter p={["40px 16px", null, "120px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
           <img src="/images/footer-logo.png" alt="Logo" width="130" />
@@ -43,7 +43,7 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="flex-start"
           mb={["42px", null, "36px"]}
         >
-          <Box display={["none", null, "block"]}>
+          <Box display={["none", null, "block"]} mt={[0, 0, -20]} >
             <img src="/images/footer-logo.png" alt="Logo" width="240" />
           </Box>
           {items?.map((item) => (

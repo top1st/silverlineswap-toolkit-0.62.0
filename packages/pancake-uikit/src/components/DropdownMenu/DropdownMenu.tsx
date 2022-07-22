@@ -132,7 +132,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
                       }}
                       {...itemProps}
                     >
-                      <Flex alignItems="center" justifyContent="space-between" width="100%">
+                      <Flex alignItems="center" justifyContent="center" width="100%">
                         {label}
                         <IconComponent iconName="Logout" />
                       </Flex>
