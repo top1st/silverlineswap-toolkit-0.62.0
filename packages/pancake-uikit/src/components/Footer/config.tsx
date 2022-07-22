@@ -106,6 +106,21 @@ export const socials = [
     icon: "Discord",
     href: "https://discord.gg/DYDd29ywmM",
   },
+  {
+    label: "Linkedin",
+    icon: "Linkedin",
+    href: "https://www.linkedin.com/company/silverlineswap-officialpage/",
+  },
+  {
+    label: "Youtube",
+    icon: "Youtube",
+    href: "https://www.youtube.com/channel/UCJHQq8Eor178K9Jn4aR-91Q",
+  },
+  {
+    label: "Facebook",
+    icon: "Facebook",
+    href: "https://www.facebook.com/SilverLineSwap/",
+  },
 ];
 
 export const langs: Language[] = [...Array(20)].map((_, i) => ({
